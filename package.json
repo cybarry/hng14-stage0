@@ -1,0 +1,22 @@
+{
+  "name": "hng14-stage0",
+  "version": "1.0.0",
+  "description": "HNG Stage 0 Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "cybarry",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "axios": "^1.15.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "fastify": "^5.8.4"
+  }
+}
